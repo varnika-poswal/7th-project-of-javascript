@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display:flex;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /*border:1px solid black;*/
+    padding:20px;
+}
+
+body{
+    /*background:url('file:///C:/Users/MI%20Computer/Desktop/istockphoto-1351571961-170667a.jpg')no-repeat;
+    background-size: cover;*/
+}
+
+.heading{
+    margin-right:100px;
+    width:150px;
+    padding:20px;
+    font-size:20px;
+    font-family: cursive;
+    text-align:center;
+    cursor:pointer;
+    text-shadow: -1px 0 #fff,0 1px #fff,0 -1px #fff;
+    box-shadow:2px 2px 20px 5px #000;
+}
+
+#color1{
+    background-color:rgb(231, 231, 128);
+}
+#color2{
+    background-color: rgb(221, 71, 71);
+}
+#color3{
+    background-color:rgb(231, 138, 149);
+}
+#color4{
+    background-color:rgb(181, 181, 240);
+}
+
+.container{
+    padding:30px;
+    position: fixed;
+    top:5%;
+    box-shadow:2px 2px 20px 5px #000;
+}
+
+.btn{
+    font-size:30px;
+    float:right;
+    cursor:pointer;
+    color:#fff;
+    text-shadow:-1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000;
+}
+
+.text{
+    font-size:20px;
+    font-family: cursive;
+    color:#fff;
+    text-shadow:-1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000;
+}
+
+#box1{
+    display:none;
+    background-image: linear-gradient(rgb(229, 229, 155),#000);
+}
+#box2{
+    display:none;
+    background-image: linear-gradient(rgb(255, 115, 0),#000);
+}
+#box3{
+    display:none;
+    background-image: linear-gradient(rgb(219, 130, 185),#000);
+}
+#box4{
+    display:none;
+    background-image: linear-gradient(rgb(112, 204, 199),#000);
+}
